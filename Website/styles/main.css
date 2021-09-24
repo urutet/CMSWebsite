@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body
+{
+  background-color: #EAE7DC;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 auto;
+}
+p {
+  margin: 10px;
+}
+
+.italic_word
+{
+  font-style: italic;
+}
+
+.italic_word:hover
+{
+  color: #e85a4f;
+}
+
+.bold_word
+{
+  font-weight: bold;
+}
+
+.bold_word:hover
+{
+  color:#e85a4f;
+}
+
+header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure
+{
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+.theory-img
+{
+  width: 70%;
+  height: 70%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #d8c3a5;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e85a4f;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #e98074;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.data-block {
+  position: relative;
+  text-align: center; 
+  padding: 20px 0;
+}
+
+/*.data-block div {
+  min-width: 300px;
+  min-height: 300px;
+}*/
+
+.data-block div img {
+  object-fit: cover;
+  width: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img-text {
+  background-color: #d8c3a5;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+button
+{
+  background-color: #e98074;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+  border-width: 0;
+  border-radius: 5px;
+}
+
+button:hover
+{
+  background-color: #e85a4f;
+}
+
+.about
+{
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  top: 20%;
+  left: 20%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#about-text
+{
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/*TOOLTIP*/
+.htooltip span { /* Внешний вид нашего тултипа */
+	background-color: rgba(0,0,0, 0.8);
+	border-radius: 15px 15px 15px 0px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	color: #fff;
+	margin-left: 2px;
+	margin-top: -75px;
+	opacity: 0; /* Делаем его прозрачным */
+	padding: 10px 10px 10px 40px;
+	position: absolute;
+	text-decoration: none;
+	visibility: hidden; /* И прячем */
+	width: 350px;
+}
+		
+.htooltip:hover { /* По hover отображаем тултип */
+	opacity: 1;
+	visibility: visible;
+}
+		
+.htooltip img { /* Изображение для примера */
+	border: 0 none;
+	float: left;
+	opacity: 0;
+	position: absolute;
+	visibility: hidden;
+}
+		
+.htooltip:hover img { /* Показываем изображение */
+	opacity: 1;
+	visibility: visible;
+}
+
+/*FULLSCREEN IMG*/
+.gallery_pics_holder {
+  border: px solid green;
+  width: 100%;
+  text-align: center;
+  height: 350px;
+  display: table;
+}
+.gallery_pics {
+  display: inline-block;
+
+  text-align: center;
+  background-color: #3C0;
+}
+.gallery_pics img {
+  width: 100%;
+}
+.gallery_pics:hover {
+  cursor: pointer;
+}
+.gallery_pics.fullscreen img {
+  width: 100%;
+  height: 100%;
+}
+.gallery_pics.fullscreen {
+  z-index: 9999;
+  position: fixed;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  background-color: #0FF;
+}
