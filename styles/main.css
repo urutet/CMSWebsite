@@ -289,3 +289,8 @@ button:hover
   /*position: sticky;*/
   display: inline-block;
 }
+
+video
+{
+  width: 30%;
+}
