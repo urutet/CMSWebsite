@@ -290,6 +290,11 @@ button:hover
   display: inline-block;
 }
 
+.parts-list li:hover
+{
+  color: #e85a4f;
+}
+
 video
 {
   width: 30%;
