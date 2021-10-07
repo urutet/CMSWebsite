@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Buttons_HTML5 Canvas_atlas_1", frames: [[0,0,1280,720],[1718,842,161,161],[1190,842,526,430],[0,1004,1036,264],[0,722,1188,280],[1282,0,649,840]]}
+		{name:"ButtonsScaled_HTML5 Canvas_atlas_1", frames: [[0,0,1280,720],[1282,664,161,161],[1038,1004,362,296],[0,1004,1036,264],[0,722,1188,280],[1282,0,512,662]]}
 ];
 
 
@@ -138,42 +138,42 @@ lib.ssMetadata = [
 
 
 (lib.photo_20211004_093904 = function() {
-	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
@@ -192,7 +192,7 @@ lib.ssMetadata = [
 
 	// Слой_1
 	this.instance = new lib.CachedBmp_5();
-	this.instance.setTransform(-95.45,-63.4,0.3442,0.3442);
+	this.instance.setTransform(-95.5,-63.45,0.5,0.5);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
@@ -200,7 +200,7 @@ lib.ssMetadata = [
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-95.4,-63.4,181,148);
+p.nominalBounds = new cjs.Rectangle(-95.5,-63.4,181,148);
 
 
 (lib.Маховикокуляра = function(mode,startPosition,loop) {
@@ -240,7 +240,7 @@ p.nominalBounds = new cjs.Rectangle(-44.5,-36.4,80.5,80.5);
 
 	// Слой_1
 	this.instance = new lib.CachedBmp_3();
-	this.instance.setTransform(-132.45,-147.4,0.3942,0.3942);
+	this.instance.setTransform(-132.5,-147.45,0.5,0.5);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
@@ -248,7 +248,7 @@ p.nominalBounds = new cjs.Rectangle(-44.5,-36.4,80.5,80.5);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-132.4,-147.4,255.8,331.1);
+p.nominalBounds = new cjs.Rectangle(-132.5,-147.4,256,331);
 
 
 (lib.Коллиматор = function(mode,startPosition,loop) {
@@ -300,7 +300,7 @@ p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,518,132);
 
 
 // stage content:
-(lib.Buttons_HTML5Canvas = function(mode,startPosition,loop) {
+(lib.ButtonsScaled_HTML5Canvas = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	this.actionFrames = [0];
@@ -322,56 +322,56 @@ p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,518,132);
 
 	// Buttons
 	this.instance = new lib.Коллиматор();
-	this.instance.setTransform(1217.05,218.2,0.8397,0.7572);
+	this.instance.setTransform(355,63.65,0.2449,0.2208,0,0,0,0.2,0.2);
 	new cjs.ButtonHelper(this.instance, 0, 1, 2, false, new lib.Коллиматор(), 3);
 
 	this.instance_1 = new lib.Лампа();
-	this.instance_1.setTransform(1531.9,236.85,0.5682,1.2685);
+	this.instance_1.setTransform(446.8,69.1,0.1657,0.3699,0,0,0,0.3,0.1);
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 2, false, new lib.Лампа(), 3);
 
 	this.instance_2 = new lib.Столик();
-	this.instance_2.setTransform(956.3,361.05,1.4528,1.2865,0,0,0,0.1,0.1);
+	this.instance_2.setTransform(278.95,105.3,0.4237,0.3752,0,0,0,0.2,0.1);
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 2, false, new lib.Столик(), 3);
 
 	this.instance_3 = new lib.Маховикокуляра();
-	this.instance_3.setTransform(578.55,233.4,0.886,0.886);
+	this.instance_3.setTransform(168.75,68.1,0.2584,0.2584,0,0,0,0.2,0.2);
 	new cjs.ButtonHelper(this.instance_3, 0, 1, 2, false, new lib.Маховикокуляра(), 3);
 
 	this.instance_4 = new lib.Зрительнаятруба();
-	this.instance_4.setTransform(712.55,230.6,0.3618,1,0,0,0,0.3,0);
+	this.instance_4.setTransform(207.8,67.25,0.1055,0.2917,0,0,0,0.5,0);
 	new cjs.ButtonHelper(this.instance_4, 0, 1, 2, false, new lib.Зрительнаятруба(), 3);
 
 	this.instance_5 = new lib.Зрительнаятруба();
-	this.instance_5.setTransform(365.7,245.35,0.6913,1,0,0,0,0.1,0);
+	this.instance_5.setTransform(106.65,71.55,0.2016,0.2917,0,0,0,0.2,0);
 	new cjs.ButtonHelper(this.instance_5, 0, 1, 2, false, new lib.Зрительнаятруба(), 3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Base
 	this.instance_6 = new lib.photo_20211004_093904();
-	this.instance_6.setTransform(-55,-20,1.5814,1.5814);
+	this.instance_6.setTransform(-16,-6,0.4612,0.4612);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(905,520,1064.2,598.5999999999999);
+p.nominalBounds = new cjs.Rectangle(264,151.5,310.4,174.60000000000002);
 // library properties:
 lib.properties = {
-	id: '08A153B90F0C3C449BB90B1515598F8A',
-	width: 1920,
-	height: 1080,
+	id: 'C8BAB321F0D880418F630876870CC5B5',
+	width: 560,
+	height: 315,
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Buttons_HTML5 Canvas_atlas_1.png?1633587475519", id:"Buttons_HTML5 Canvas_atlas_1"},
-		{src:"sounds/К1.mp3?1633587475590", id:"К1"},
-		{src:"sounds/K3.mp3?1633587475590", id:"K3"},
-		{src:"sounds/K4.mp3?1633587475590", id:"K4"},
-		{src:"sounds/К5.mp3?1633587475590", id:"К5"},
-		{src:"sounds/К2.mp3?1633587475590", id:"К2"}
+		{src:"images/ButtonsScaled_HTML5 Canvas_atlas_1.png?1633589693563", id:"ButtonsScaled_HTML5 Canvas_atlas_1"},
+		{src:"sounds/К2.mp3?1633589693645", id:"К2"},
+		{src:"sounds/K3.mp3?1633589693645", id:"K3"},
+		{src:"sounds/K4.mp3?1633589693645", id:"K4"},
+		{src:"sounds/К1.mp3?1633589693645", id:"К1"},
+		{src:"sounds/К5.mp3?1633589693645", id:"К5"}
 	],
 	preloads: []
 };
@@ -409,7 +409,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['08A153B90F0C3C449BB90B1515598F8A'] = {
+an.compositions['C8BAB321F0D880418F630876870CC5B5'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
