@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Кнопки_HTML5 Canvas_atlas_1", frames: [[0,0,1280,720],[1718,842,161,161],[1190,842,526,430],[0,1004,1036,264],[0,722,1188,280],[1282,0,649,840]]}
+		{name:"Buttons_HTML5 Canvas_atlas_1", frames: [[0,0,1280,720],[1718,842,161,161],[1190,842,526,430],[0,1004,1036,264],[0,722,1188,280],[1282,0,649,840]]}
 ];
 
 
@@ -138,42 +138,42 @@ lib.ssMetadata = [
 
 
 (lib.photo_20211004_093904 = function() {
-	this.initialize(ss["Кнопки_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["Кнопки_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["Кнопки_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["Кнопки_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["Кнопки_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["Кнопки_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["Buttons_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
@@ -300,7 +300,7 @@ p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,518,132);
 
 
 // stage content:
-(lib.Кнопки_HTML5Canvas = function(mode,startPosition,loop) {
+(lib.Buttons_HTML5Canvas = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	this.actionFrames = [0];
@@ -359,19 +359,19 @@ p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,518,132);
 p.nominalBounds = new cjs.Rectangle(905,520,1064.2,598.5999999999999);
 // library properties:
 lib.properties = {
-	id: '1D85BC41B529A841A25AFFB626190CAA',
+	id: '08A153B90F0C3C449BB90B1515598F8A',
 	width: 1920,
 	height: 1080,
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Кнопки_HTML5 Canvas_atlas_1.png?1633557341446", id:"Кнопки_HTML5 Canvas_atlas_1"},
-		{src:"sounds/К1.mp3?1633557341494", id:"К1"},
-		{src:"sounds/К2.mp3?1633557341494", id:"К2"},
-		{src:"sounds/К5.mp3?1633557341494", id:"К5"},
-		{src:"sounds/K3.mp3?1633557341494", id:"K3"},
-		{src:"sounds/K4.mp3?1633557341494", id:"K4"}
+		{src:"images/Buttons_HTML5 Canvas_atlas_1.png?1633587475519", id:"Buttons_HTML5 Canvas_atlas_1"},
+		{src:"sounds/К1.mp3?1633587475590", id:"К1"},
+		{src:"sounds/K3.mp3?1633587475590", id:"K3"},
+		{src:"sounds/K4.mp3?1633587475590", id:"K4"},
+		{src:"sounds/К5.mp3?1633587475590", id:"К5"},
+		{src:"sounds/К2.mp3?1633587475590", id:"К2"}
 	],
 	preloads: []
 };
@@ -409,7 +409,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['1D85BC41B529A841A25AFFB626190CAA'] = {
+an.compositions['08A153B90F0C3C449BB90B1515598F8A'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
