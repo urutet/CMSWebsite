@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ButtonsScaled_HTML5 Canvas_atlas_1", frames: [[0,0,1280,720],[1282,664,161,161],[1038,1004,362,296],[0,1004,1036,264],[0,722,1188,280],[1282,0,512,662]]}
+		{name:"ButtonsScaled_HTML5 Canvas_atlas_1", frames: [[1190,1328,161,161],[0,0,1280,720],[1038,1610,362,296],[1402,1328,362,296],[0,1328,1188,280],[0,1004,1036,264],[1282,0,512,662],[1038,1004,161,161],[0,722,1188,280],[0,1610,1036,264],[1282,664,512,662]]}
 ];
 
 
@@ -137,44 +137,79 @@ lib.ssMetadata = [
 
 
 
-(lib.photo_20211004_093904 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.photo_20211004_093904 = function() {
 	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_15 = function() {
 	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_11 = function() {
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["ButtonsScaled_HTML5 Canvas_atlas_1"]);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -183,120 +218,130 @@ lib.ssMetadata = [
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_3 = function() {
+	this.frame_2 = function() {
 		playSound("K3");
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(3).call(this.frame_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_5();
-	this.instance.setTransform(-95.5,-63.45,0.5,0.5);
-	this.instance._off = true;
+	this.instance = new lib.CachedBmp_15();
+	this.instance.setTransform(-89.65,-69.3,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
+	this.instance_1 = new lib.CachedBmp_10();
+	this.instance_1.setTransform(-95.5,-63.45,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-95.5,-63.4,181,148);
+p.nominalBounds = new cjs.Rectangle(-95.5,-69.3,186.9,153.89999999999998);
 
 
 (lib.Маховикокуляра = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_3 = function() {
+	this.frame_2 = function() {
 		playSound("К2");
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(3).call(this.frame_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_4();
-	this.instance.setTransform(-44.5,-36.45,0.5,0.5);
-	this.instance._off = true;
+	this.instance = new lib.CachedBmp_14();
+	this.instance.setTransform(-38.75,-36.25,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
+	this.instance_1 = new lib.CachedBmp_8();
+	this.instance_1.setTransform(-44.5,-36.45,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-44.5,-36.4,80.5,80.5);
+p.nominalBounds = new cjs.Rectangle(-44.5,-36.4,86.3,80.69999999999999);
 
 
 (lib.Лампа = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_3 = function() {
+	this.frame_2 = function() {
 		playSound("K4");
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(3).call(this.frame_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_3();
-	this.instance.setTransform(-132.5,-147.45,0.5,0.5);
-	this.instance._off = true;
+	this.instance = new lib.CachedBmp_13();
+	this.instance.setTransform(-126.5,-161.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
+	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1.setTransform(-132.5,-147.45,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-132.5,-147.4,256,331);
+p.nominalBounds = new cjs.Rectangle(-132.5,-161.5,262,345.1);
 
 
 (lib.Коллиматор = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_3 = function() {
+	this.frame_2 = function() {
 		playSound("К5");
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(3).call(this.frame_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_2();
-	this.instance.setTransform(-322.45,-68.45,0.5,0.5);
-	this.instance._off = true;
+	this.instance = new lib.CachedBmp_12();
+	this.instance.setTransform(-295.45,-68,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
+	this.instance_1 = new lib.CachedBmp_4();
+	this.instance_1.setTransform(-322.45,-68.45,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-322.4,-68.4,594,140);
+p.nominalBounds = new cjs.Rectangle(-322.4,-68.4,621,140.4);
 
 
 (lib.Зрительнаятруба = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_3 = function() {
+	this.frame_2 = function() {
 		playSound("К1");
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(3).call(this.frame_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
 
 	// Слой_1
-	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(-272.5,-59.45,0.5,0.5);
-	this.instance._off = true;
+	this.instance = new lib.CachedBmp_11();
+	this.instance.setTransform(-257.5,-59,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
+	this.instance_1 = new lib.CachedBmp_2();
+	this.instance_1.setTransform(-272.5,-59.45,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,518,132);
+p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,533,132.4);
 
 
 // stage content:
@@ -322,36 +367,32 @@ p.nominalBounds = new cjs.Rectangle(-272.5,-59.4,518,132);
 
 	// Buttons
 	this.instance = new lib.Коллиматор();
-	this.instance.setTransform(355,63.65,0.2449,0.2208,0,0,0,0.2,0.2);
+	this.instance.setTransform(371.25,61.85,0.18,0.2244);
 	new cjs.ButtonHelper(this.instance, 0, 1, 2, false, new lib.Коллиматор(), 3);
 
 	this.instance_1 = new lib.Лампа();
-	this.instance_1.setTransform(446.8,69.1,0.1657,0.3699,0,0,0,0.3,0.1);
+	this.instance_1.setTransform(445.5,63.05,0.1596,0.3133);
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 2, false, new lib.Лампа(), 3);
 
 	this.instance_2 = new lib.Столик();
-	this.instance_2.setTransform(278.95,105.3,0.4237,0.3752,0,0,0,0.2,0.1);
+	this.instance_2.setTransform(278,108.35,0.362,0.4591,0,0,0,0,0.4);
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 2, false, new lib.Столик(), 3);
 
-	this.instance_3 = new lib.Маховикокуляра();
-	this.instance_3.setTransform(168.75,68.1,0.2584,0.2584,0,0,0,0.2,0.2);
-	new cjs.ButtonHelper(this.instance_3, 0, 1, 2, false, new lib.Маховикокуляра(), 3);
+	this.instance_3 = new lib.Зрительнаятруба();
+	this.instance_3.setTransform(150.65,68.15,0.3536,0.3659);
+	new cjs.ButtonHelper(this.instance_3, 0, 1, 2, false, new lib.Зрительнаятруба(), 3);
 
-	this.instance_4 = new lib.Зрительнаятруба();
-	this.instance_4.setTransform(207.8,67.25,0.1055,0.2917,0,0,0,0.5,0);
-	new cjs.ButtonHelper(this.instance_4, 0, 1, 2, false, new lib.Зрительнаятруба(), 3);
-
-	this.instance_5 = new lib.Зрительнаятруба();
-	this.instance_5.setTransform(106.65,71.55,0.2016,0.2917,0,0,0,0.2,0);
-	new cjs.ButtonHelper(this.instance_5, 0, 1, 2, false, new lib.Зрительнаятруба(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Base
-	this.instance_6 = new lib.photo_20211004_093904();
-	this.instance_6.setTransform(-16,-6,0.4612,0.4612);
+	this.instance_4 = new lib.Маховикокуляра();
+	this.instance_4.setTransform(170.1,68.75,0.2415,0.2415);
+	new cjs.ButtonHelper(this.instance_4, 0, 1, 2, false, new lib.Маховикокуляра(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
+	this.instance_5 = new lib.photo_20211004_093904();
+	this.instance_5.setTransform(-16,-6,0.4612,0.4612);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -366,12 +407,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ButtonsScaled_HTML5 Canvas_atlas_1.png?1633589693563", id:"ButtonsScaled_HTML5 Canvas_atlas_1"},
-		{src:"sounds/К2.mp3?1633589693645", id:"К2"},
-		{src:"sounds/K3.mp3?1633589693645", id:"K3"},
-		{src:"sounds/K4.mp3?1633589693645", id:"K4"},
-		{src:"sounds/К1.mp3?1633589693645", id:"К1"},
-		{src:"sounds/К5.mp3?1633589693645", id:"К5"}
+		{src:"images/ButtonsScaled_HTML5 Canvas_atlas_1.png?1633936670116", id:"ButtonsScaled_HTML5 Canvas_atlas_1"},
+		{src:"sounds/К2.mp3?1633936670198", id:"К2"},
+		{src:"sounds/K3.mp3?1633936670198", id:"K3"},
+		{src:"sounds/K4.mp3?1633936670198", id:"K4"},
+		{src:"sounds/К1.mp3?1633936670198", id:"К1"},
+		{src:"sounds/К5.mp3?1633936670198", id:"К5"}
 	],
 	preloads: []
 };
